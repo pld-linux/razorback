@@ -30,14 +30,14 @@ Razorback jest interfejsem dla pakietu SNORT, przeznaczonym dla
 rm config.cache
 %configure2_13
 %{__make} \
-	   CC="%{__cc}"
+	CC="%{__cc}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT%{_bindir} \
-	   $RPM_BUILD_ROOT%{_applnkdir}/Network/Misc \
-	   $RPM_BUILD_ROOT%{_pixmapsdir}
+	$RPM_BUILD_ROOT%{_applnkdir}/Network/Misc \
+	$RPM_BUILD_ROOT%{_pixmapsdir}
 
 install razorback.desktop $RPM_BUILD_ROOT%{_applnkdir}/Network/Misc
 install pixmaps/razorback_icon.png $RPM_BUILD_ROOT%{_pixmapsdir}/razorback.png
