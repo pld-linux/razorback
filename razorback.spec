@@ -18,9 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Razorback is a monitoring interface to the SNORT intrusion detection
 toolkit for GNOME.
 
-%description(pl)
+%description -l pl
 Razorback jest interfejsem dla pakietu SNORT, przeznaczonym dla
-¶rodowiska GNOME
+¶rodowiska GNOME.
 
 %prep
 
