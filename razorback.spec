@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Networking
 Source0:	http://www.intersectalliance.com/razorback/%{name}-%{version}.tar.gz
+# Source0-md5:	aeb7a76963a4cc753ab264b333ebbcac
 URL:		http://www.intersectalliance.com/
 BuildRequires:	gtk+-devel
 BuildRequires:	gnome-libs-devel
