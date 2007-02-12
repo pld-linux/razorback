@@ -1,5 +1,5 @@
 Summary:	An intrusion detection tool for GNOME
-Summary(pl):	Narzêdzie do wykrywania intruzów dla ¶rodowiska GNOME
+Summary(pl.UTF-8):   NarzÄ™dzie do wykrywania intruzÃ³w dla Å›rodowiska GNOME
 Name:		razorback
 Version:	1.0.3
 Release:	1
@@ -18,9 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Razorback is a monitoring interface to the SNORT intrusion detection
 toolkit for GNOME.
 
-%description -l pl
+%description -l pl.UTF-8
 Razorback jest interfejsem dla pakietu SNORT, przeznaczonym dla
-¶rodowiska GNOME.
+Å›rodowiska GNOME.
 
 %prep
 %setup -q
