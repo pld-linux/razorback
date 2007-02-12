@@ -1,5 +1,5 @@
 Summary:	An intrusion detection tool for GNOME
-Summary(pl.UTF-8):   Narzędzie do wykrywania intruzów dla środowiska GNOME
+Summary(pl.UTF-8):	Narzędzie do wykrywania intruzów dla środowiska GNOME
 Name:		razorback
 Version:	1.0.3
 Release:	1
