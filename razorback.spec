@@ -43,12 +43,12 @@ install pixmaps/razorback_icon.png $RPM_BUILD_ROOT%{_pixmapsdir}/razorback.png
 
 install src/razorback $RPM_BUILD_ROOT%{_bindir}
 
+%clean
+rm -rf $RPM_BUILD_ROOT
+
 %files
 %defattr(644,root,root,755)
 %doc README ChangeLog AUTHORS TODO
 %attr(755,root,root) %{_bindir}/razorback
 %{_desktopdir}/*.desktop
 %{_pixmapsdir}/*
-
-%clean
-rm -r $RPM_BUILD_ROOT
